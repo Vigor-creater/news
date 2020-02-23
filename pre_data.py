@@ -78,3 +78,4 @@ def pre_main():
         content_.append(" ".join(true_words))
     tfidf_weight = feature_extraction(content_)
     return content_, tfidf_weight
+
